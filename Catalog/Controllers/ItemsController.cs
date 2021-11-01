@@ -25,7 +25,7 @@ namespace Catalog.Controllers
         [HttpGet]
         public IEnumerable<ItemDto> GetItems()
         {
-            var items = repository.GetItems().Select( item => item.AsDto());            
+            var items = repository.GetItems().Select(item => item.AsDto());
             return items;
 
         }
@@ -40,6 +40,23 @@ namespace Catalog.Controllers
                 return NotFound();
             }
             return item.AsDto();
+        }
+
+        //POST /items
+
+        [HttpPost]
+        public ActionResult<ItemDto> CreateItem(CreateItemDto itemDto)
+        {
+            Item item = new(){
+                Id = Guid.NewGuid(),
+                Name = itemDto.Name,
+                Price = itemDto.Price,
+                CreatedDate = DateTimeOffset.UtcNow
+            };
+
+            repository.CreateItem(item);
+
+            return CreatedAtAction(nameof(GetItem), new { id = item.Id }, item.AsDto());
         }
     }
 }
