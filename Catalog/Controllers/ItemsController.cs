@@ -43,7 +43,6 @@ namespace Catalog.Controllers
         }
 
         //POST /items
-
         [HttpPost]
         public ActionResult<ItemDto> CreateItem(CreateItemDto itemDto)
         {
