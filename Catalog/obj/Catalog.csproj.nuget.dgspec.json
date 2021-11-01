@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/mat/Documents/dev/dotnet5-API-Tutorial/dotnet_REST_api/Catalog/Catalog.csproj": {}
+  },
+  "projects": {
+    "/Users/mat/Documents/dev/dotnet5-API-Tutorial/dotnet_REST_api/Catalog/Catalog.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mat/Documents/dev/dotnet5-API-Tutorial/dotnet_REST_api/Catalog/Catalog.csproj",
+        "projectName": "Catalog",
+        "projectPath": "/Users/mat/Documents/dev/dotnet5-API-Tutorial/dotnet_REST_api/Catalog/Catalog.csproj",
+        "packagesPath": "/Users/mat/.nuget/packages/",
+        "outputPath": "/Users/mat/Documents/dev/dotnet5-API-Tutorial/dotnet_REST_api/Catalog/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mat/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://rise-x.pkgs.visualstudio.com/3e51f2c5-dio.com/3e51f2c5-532a-4292-a53d-eaa48473daf9/_packaging/Diana.Graph/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

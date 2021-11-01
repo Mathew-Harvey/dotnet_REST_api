@@ -1,0 +1,10 @@
+/Users/mat/Documents/dev/dotnet5-API-Tutorial/dotnet_REST_api/Catalog/bin/Debug/net5.0/publish/appsettings.Development.json
+/Users/mat/Documents/dev/dotnet5-API-Tutorial/dotnet_REST_api/Catalog/bin/Debug/net5.0/publish/appsettings.json
+/Users/mat/Documents/dev/dotnet5-API-Tutorial/dotnet_REST_api/Catalog/bin/Debug/net5.0/publish/Catalog.dll
+/Users/mat/Documents/dev/dotnet5-API-Tutorial/dotnet_REST_api/Catalog/bin/Debug/net5.0/publish/Catalog.deps.json
+/Users/mat/Documents/dev/dotnet5-API-Tutorial/dotnet_REST_api/Catalog/bin/Debug/net5.0/publish/Catalog.runtimeconfig.json
+/Users/mat/Documents/dev/dotnet5-API-Tutorial/dotnet_REST_api/Catalog/bin/Debug/net5.0/publish/Catalog.pdb
+/Users/mat/Documents/dev/dotnet5-API-Tutorial/dotnet_REST_api/Catalog/bin/Debug/net5.0/publish/Microsoft.OpenApi.dll
+/Users/mat/Documents/dev/dotnet5-API-Tutorial/dotnet_REST_api/Catalog/bin/Debug/net5.0/publish/Swashbuckle.AspNetCore.Swagger.dll
+/Users/mat/Documents/dev/dotnet5-API-Tutorial/dotnet_REST_api/Catalog/bin/Debug/net5.0/publish/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/mat/Documents/dev/dotnet5-API-Tutorial/dotnet_REST_api/Catalog/bin/Debug/net5.0/publish/Swashbuckle.AspNetCore.SwaggerUI.dll
